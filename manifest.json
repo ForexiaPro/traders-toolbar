@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Trader's Toolbar: Central Bank Countdown, Sessions, COT",
+  "short_name": "Trader's Toolbar",
+  "version": "1.0.0",
+  "description": "The next central bank decision with a countdown and its odds, a forex session clock, COT positioning and the latest signal.",
+  "homepage_url": "https://github.com/ForexiaPro/traders-toolbar",
+  "minimum_chrome_version": "116",
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_title": "Trader's Toolbar",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "permissions": ["alarms", "storage"],
+  "host_permissions": [
+    "https://interestratedecision.com/data/*",
+    "https://raw.githubusercontent.com/ForexiaPro/cot-data/*",
+    "https://tradingsignalbot.com/data/*"
+  ]
+}

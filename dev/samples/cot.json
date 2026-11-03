@@ -1,0 +1,14 @@
+{
+  "note": "SAMPLE for the preview only: made-up figures in the shape of ForexiaPro/cot-data data/latest.json. Not CFTC data.",
+  "report_date": "2026-10-27",
+  "released": "2026-10-30T19:30:00.000Z",
+  "markets": [
+    { "id": "EUR", "name": "Euro FX", "open_interest": 868188, "legacy": { "noncommercial": { "long": 201000, "short": 116790, "net": 84210, "net_change_1w": 3120, "net_pct_oi": 9.7 } } },
+    { "id": "GBP", "name": "British Pound", "open_interest": 251300, "legacy": { "noncommercial": { "long": 61200, "short": 73240, "net": -12040, "net_change_1w": -2210, "net_pct_oi": -4.79 } } },
+    { "id": "JPY", "name": "Japanese Yen", "open_interest": 302400, "legacy": { "noncommercial": { "long": 38100, "short": 99400, "net": -61300, "net_change_1w": 4500, "net_pct_oi": -20.27 } } },
+    { "id": "CHF", "name": "Swiss Franc", "open_interest": 98600, "legacy": { "noncommercial": { "long": 8100, "short": 29900, "net": -21800, "net_change_1w": 900, "net_pct_oi": -22.11 } } },
+    { "id": "CAD", "name": "Canadian Dollar", "open_interest": 214900, "legacy": { "noncommercial": { "long": 41200, "short": 76700, "net": -35500, "net_change_1w": -1800, "net_pct_oi": -16.52 } } },
+    { "id": "AUD", "name": "Australian Dollar", "open_interest": 187300, "legacy": { "noncommercial": { "long": 70400, "short": 64000, "net": 6400, "net_change_1w": 2600, "net_pct_oi": 3.42 } } },
+    { "id": "NZD", "name": "NZ Dollar", "open_interest": 61200, "legacy": { "noncommercial": { "long": 17300, "short": 21400, "net": -4100, "net_change_1w": 300, "net_pct_oi": -6.7 } } }
+  ]
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Trader's Toolbar (preview)</title>
+    <link rel="stylesheet" href="../src/popup.css" />
+    <style>
+      #samples { font: 11px system-ui; color: #f5a524; padding: 6px 12px 0; width: 360px; }
+      #samples:empty { display: none; }
+    </style>
+    <script src="mock-chrome.js"></script>
+  </head>
+  <body>
+    <div id="samples"></div>
+    <main id="app" aria-live="polite"></main>
+    <script type="module" src="../src/popup.js"></script>
+  </body>
+</html>

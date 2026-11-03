@@ -1,0 +1,7 @@
+{
+  "note": "SAMPLE for the preview only: made-up figures in the expected shape. Not real odds.",
+  "banks": [
+    { "bank": "rba", "meetings": [{ "t": "2026-11-03T03:30:00.000Z", "odds": { "hike": 0.08, "hold": 0.81, "cut": 0.11 }, "rule": "consensus", "page": "https://interestratedecision.com/rba/rate-odds/" }] },
+    { "bank": "riksbank", "meetings": [{ "t": "2026-11-04T08:30:00.000Z", "odds": { "hike": 0.05, "hold": 0.72, "cut": 0.23 }, "rule": "run", "page": "https://interestratedecision.com/riksbank/rate-odds/" }] }
+  ]
+}

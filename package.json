@@ -1,0 +1,15 @@
+{
+  "name": "traders-toolbar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome and Edge extension: the next central bank decision with its odds, a forex session clock, COT positioning and the latest signal.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "icons": "node scripts/icons.mjs",
+    "pack": "node scripts/pack.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

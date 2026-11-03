@@ -1,0 +1,6 @@
+{
+  "note": "SAMPLE for the preview only: a made-up signal in the expected shape.",
+  "signals": [
+    { "pair": "EURUSD", "side": "buy", "entry": 1.0842, "stop": 1.0811, "targets": [1.0873, 1.0904], "status": "open", "t": "2026-11-02T13:05:00Z", "strategy": "London breakout" }
+  ]
+}
